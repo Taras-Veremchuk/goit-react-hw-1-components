@@ -9,3 +9,14 @@ export const List = styled.ul`
     border-radius: 10px;
     margin-bottom: 35px;
     `
+export const Item = styled.li`
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #f1d18a;
+  padding: 10px;
+  :last-child {
+  margin-bottom: 0;
+  border-bottom: none
+
+`;

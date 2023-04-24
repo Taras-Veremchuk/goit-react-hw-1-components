@@ -1,16 +1,5 @@
 import styled from '@emotion/styled';
 
-export const Item = styled.li`
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #f1d18a;
-  padding: 10px;
-  :last-child {
-  margin-bottom: 0;
-  border-bottom: none
-
-`;
 export const Span = styled.span`
   display: inline-block;
   width: 10px;
